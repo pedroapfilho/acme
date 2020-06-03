@@ -1,0 +1,13 @@
+{
+  "name": "web-app",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "lerna run dev --parallel"
+  },
+  "devDependencies": {
+    "lerna": "^3.22.0"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "@web-app/components",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Pedro Filho",
+  "peerDependencies": {
+    "react": "^16.13.1"
+  },
+  "dependencies": {
+    "next-transpile-modules": "^3.3.0"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.35",
+    "typescript": "^3.9.3"
+  }
+}
