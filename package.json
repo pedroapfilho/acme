@@ -37,11 +37,11 @@
 	},
 	"husky": {
 		"hooks": {
-			"pre-commit": "lerna run --concurrency 1 --stream precommit --since HEAD --exclude-dependents"
+			"pre-commit": "lint-staged"
 		}
 	},
 	"lint-staged": {
-		"*": [
+		"*.{js, jsx, ts, tsx}": [
 			"yarn lint",
 			"git add"
 		]
@@ -62,5 +62,8 @@
 				"statements": 90
 			}
 		}
+	},
+	"dependencies": {
+		"lint-staged": "^10.2.8"
 	}
 }
