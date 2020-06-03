@@ -1,8 +1,8 @@
 import { FC } from "react";
-import Button from "@acme/components/Button";
+import { Button } from "@acme/lib";
 
 const Home: FC = () => {
-  return <Button>Site</Button>;
+  return <Button>Website</Button>;
 };
 
 export default Home;

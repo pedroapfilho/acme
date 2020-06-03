@@ -5,7 +5,8 @@
     "packages/*"
   ],
   "scripts": {
-    "dev": "lerna run dev --parallel"
+    "dev": "lerna run dev --parallel",
+    "storybook": "yarn --cwd packages/lib storybook"
   },
   "devDependencies": {
     "lerna": "^3.22.0"
