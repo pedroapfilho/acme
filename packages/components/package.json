@@ -1,5 +1,5 @@
 {
-  "name": "@web-app/components",
+  "name": "@acme/components",
   "version": "1.0.0",
   "main": "index.js",
   "author": "Pedro Filho",

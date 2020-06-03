@@ -1,3 +1,3 @@
-const withTM = require("next-transpile-modules")(["@web-app/components"]);
+const withTM = require("next-transpile-modules")(["@acme/components"]);
 
 module.exports = withTM();

@@ -1,5 +1,5 @@
 import { FC } from "react";
-import Button from "@web-app/components/Button";
+import Button from "@acme/components/Button";
 
 const Home: FC = () => {
   return <Button>Site</Button>;
