@@ -1,10 +1,8 @@
 import React, { FC } from "react";
+import Button from ".";
 
-import Button from "./";
+export default { title: "Button" };
 
-export default {
-	component: Button,
-	title: "Button",
-};
+export const Default: FC = () => <Button>Hello Button</Button>;
 
-export const Default: FC = () => <Button>Something</Button>;
+export const FullWidth: FC = () => <Button fullWidth>Hello Button</Button>;
