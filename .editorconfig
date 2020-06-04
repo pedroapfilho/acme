@@ -1,6 +1,6 @@
 root = true
 
-[*.{ts,tsx}]
+[*.{js,jsx,ts,tsx}]
 trim_trailing_whitespace = true
 
 # Unix-style newlines with a newline ending every file
