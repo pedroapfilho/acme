@@ -47,23 +47,6 @@
 			"git add"
 		]
 	},
-	"jest": {
-		"setupFilesAfterEnv": [
-			"<rootDir>/jest.setup.js"
-		],
-		"verbose": true,
-		"projects": [
-			"<rootDir>/packages/*"
-		],
-		"coverageThreshold": {
-			"global": {
-				"branches": 90,
-				"functions": 90,
-				"lines": 90,
-				"statements": 90
-			}
-		}
-	},
 	"dependencies": {
 		"lint-staged": "^10.2.8"
 	}
