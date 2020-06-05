@@ -6,30 +6,25 @@ import { ButtonProps } from "./types";
 const StyledButton = styled(({ size, fullWidth, color, ...props }) => <button {...props} />)<
 	ButtonProps
 >`
-  cursor: pointer;
-  transition: ${(props) => props.theme.transition};
+	cursor: pointer;
 
-  &:focus {
-    outline: none;
-  };
+	&:focus {
+		outline: none;
+	}
 
-  ${(props) =>
-		props.size === "medium" &&
-		css`
-			padding: ${props.theme.space * 2}px;
-		`}
+	padding: ${(props) => props.theme.space[3]}px;
 
-  ${(props) =>
-		props.size === "small" &&
-		css`
-			padding: ${props.theme.space}px;
-		`}
+	border: none;
 
-  ${(props) =>
+	background-color: ${(props) => props.theme.colors.background};
+
+	color: ${(props) => props.theme.colors.text};
+
+	${(props) =>
 		props.fullWidth &&
 		css`
 			width: 100%;
-		`}
+		`};
 `;
 
 export { StyledButton };

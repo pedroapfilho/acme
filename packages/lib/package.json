@@ -7,8 +7,10 @@
 		"react": "^16.13.1"
 	},
 	"dependencies": {
+		"framer-motion": "^1.11.0",
 		"next-transpile-modules": "^3.3.0",
-		"styled-components": "^5.1.1"
+		"styled-components": "^5.1.1",
+		"styled-system": "^5.1.5"
 	},
 	"devDependencies": {
 		"@babel/core": "^7.10.2",
