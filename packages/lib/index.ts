@@ -1,6 +1,7 @@
 // Theme
+import theme from "./theme";
 
 // Components
 import Button from "./components/Button";
 
-export { Button };
+export { theme, Button };
