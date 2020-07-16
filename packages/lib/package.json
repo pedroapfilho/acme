@@ -7,19 +7,19 @@
 		"react": "^16.13.1"
 	},
 	"dependencies": {
-		"framer-motion": "^1.11.0",
+		"framer-motion": "^2.0.1",
 		"next-transpile-modules": "^3.3.0",
 		"styled-components": "^5.1.1",
 		"styled-system": "^5.1.5"
 	},
 	"devDependencies": {
-		"@babel/core": "^7.10.2",
+		"@babel/core": "^7.10.5",
 		"@storybook/preset-typescript": "^3.0.0",
 		"@storybook/react": "^5.3.19",
-		"@types/react": "^16.9.35",
-		"@types/styled-components": "^5.1.0",
+		"@types/react": "^16.9.43",
+		"@types/styled-components": "^5.1.1",
 		"babel-loader": "^8.1.0",
-		"typescript": "^3.9.3"
+		"typescript": "^3.9.7"
 	},
 	"scripts": {
 		"storybook": "start-storybook -p 6006",
