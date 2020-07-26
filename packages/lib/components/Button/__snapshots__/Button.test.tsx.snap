@@ -3,7 +3,7 @@
 exports[`Button Should match snapshots 1`] = `
 <div>
   <button
-    class="sc-AxjAm bdRnFX"
+    class="sc-AxjAm dhcvau"
   >
     Sample Text
   </button>

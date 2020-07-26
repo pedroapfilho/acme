@@ -11,3 +11,8 @@ packages
 --website
 --server (this one needs some work to generate, you can choose whatever you want here, I usually use Amplify)
 ```
+
+TODO:
+
+[] Add absolute imports to `/lib/`
+[] Implement hot reload

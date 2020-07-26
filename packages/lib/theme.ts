@@ -1,3 +1,5 @@
+import { createGlobalStyle } from "styled-components";
+
 const theme = {
 	space: [0, 4, 8, 16, 32, 64, 128, 256, 512],
 	fonts: {
@@ -24,5 +26,14 @@ const theme = {
 		muted: "#f6f6f6",
 	},
 };
+
+const GlobalStyle = createGlobalStyle`
+  * {
+    margin: 0px;
+    padding: 0px;
+	}
+`;
+
+export { GlobalStyle };
 
 export default theme;
