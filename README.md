@@ -14,5 +14,5 @@ packages
 
 TODO:
 
-[] Add absolute imports to `/lib/`
-[] Implement hot reload
+- [ ] Add absolute imports to `/lib/`
+- [ ] Implement hot reload

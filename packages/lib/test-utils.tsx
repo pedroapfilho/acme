@@ -5,7 +5,7 @@ import theme, { GlobalStyle } from "./theme";
 
 import { render, RenderOptions, RenderResult } from "@testing-library/react";
 
-const AllTheProviders = ({ children }) => {
+const Providers = ({ children }) => {
 	return (
 		<ThemeProvider theme={theme}>
 			<GlobalStyle />
@@ -15,7 +15,7 @@ const AllTheProviders = ({ children }) => {
 };
 
 const customRender = (ui: ReactElement, options?: Omit<RenderOptions, "queries">): RenderResult =>
-	render(ui, { wrapper: AllTheProviders, ...options });
+	render(ui, { wrapper: Providers, ...options });
 
 export * from "@testing-library/react";
 
