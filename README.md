@@ -17,3 +17,4 @@ TODO:
 - [ ] Add absolute imports to `/lib/`
 - [ ] Implement hot reload
 - [ ] Add types package
+- [ ] Move to Yarn 2.x
