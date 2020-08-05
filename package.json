@@ -5,8 +5,7 @@
 		"packages/*"
 	],
 	"scripts": {
-		"bootstrap": "lerna bootstrap --use-workspaces",
-		"dev": "lerna run dev --parallel",
+		"dev:app": "yarn workspace @acme/app dev",
 		"storybook": "yarn --cwd packages/lib storybook",
 		"lint": "eslint . --fix",
 		"test": "jest",
@@ -33,7 +32,6 @@
 		"eslint-plugin-react-hooks": "^4.0.8",
 		"husky": "^4.2.5",
 		"jest": "^26.2.2",
-		"lerna": "^3.22.1",
 		"prettier": "^2.0.5"
 	},
 	"husky": {
