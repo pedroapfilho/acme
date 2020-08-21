@@ -1,7 +1,5 @@
-import { HTMLProps } from "react";
-
-interface ButtonProps extends Omit<HTMLProps<HTMLButtonElement>, "size" | "as"> {
-  fullWidth?: boolean;
+interface ButtonProps {
+  [key: string]: any;
 }
 
-export type { ButtonProps };
+export default ButtonProps;

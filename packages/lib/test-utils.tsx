@@ -1,17 +1,11 @@
 import React, { ReactElement } from "react";
 
-import { ThemeProvider } from "styled-components";
-import theme, { GlobalStyle } from "./theme";
+// import theme from "./theme";
 
 import { render, RenderOptions, RenderResult } from "@testing-library/react";
 
 const Providers = ({ children }) => {
-  return (
-    <ThemeProvider theme={theme}>
-      <GlobalStyle />
-      {children}
-    </ThemeProvider>
-  );
+  return <>{children}</>;
 };
 
 const customRender = (ui: ReactElement, options?: Omit<RenderOptions, "queries">): RenderResult =>
