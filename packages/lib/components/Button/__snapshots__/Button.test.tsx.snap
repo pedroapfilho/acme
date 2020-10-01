@@ -2,10 +2,7 @@
 
 exports[`Button Should match snapshots 1`] = `
 <div>
-  <button
-    class="css-c4fa1y"
-    type="button"
-  >
+  <button>
     Sample Text
   </button>
 </div>
