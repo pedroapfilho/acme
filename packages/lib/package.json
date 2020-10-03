@@ -8,8 +8,8 @@
   },
   "devDependencies": {
     "@babel/core": "^7.11.1",
-    "@storybook/react": "^6.0.16",
-    "@types/react": "^16.9.43",
+    "@storybook/react": "^6.0.24",
+    "@types/react": "^16.9.50",
     "babel-loader": "^8.1.0",
     "babel-preset-react-app": "^9.1.2",
     "typescript": "^4.0.2"
