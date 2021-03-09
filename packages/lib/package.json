@@ -1,8 +1,12 @@
 {
   "name": "@acme/lib",
   "version": "1.0.0",
-  "main": "index.js",
-  "author": "Pedro Filho",
+  "private": true,
+  "license": "UNLICENSED",
+  "scripts": {
+    "storybook": "start-storybook -p 3002",
+    "build-storybook": "build-storybook"
+  },
   "peerDependencies": {
     "react": "^16.13.1"
   },
@@ -13,9 +17,5 @@
     "babel-loader": "^8.1.0",
     "babel-preset-react-app": "^10.0.0",
     "typescript": "^4.2.2"
-  },
-  "scripts": {
-    "storybook": "start-storybook -p 3002",
-    "build-storybook": "build-storybook"
   }
 }
