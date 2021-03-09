@@ -6,5 +6,4 @@ A boilerplate for new projects
 packages
 --app
 --lib
---server
 ```
